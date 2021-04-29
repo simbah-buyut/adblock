@@ -13,11 +13,3 @@
 		});
 	});
 })();
-(function () {
-	$(window).load(function () {
-		if($(".ad").first().height() < 10) {
-			$(".adblock-show").show();
-			$(".adblock-hide").addClass("active");
-		}
-	});
-})();
